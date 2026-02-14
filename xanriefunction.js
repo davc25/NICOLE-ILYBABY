@@ -37,7 +37,7 @@ $(window).resize(function() {
 
 function timeElapse() {
 
-    var referenceDate = new Date("August 21, 2008");
+    var referenceDate = new Date("January 1, 2026");
     var currentDate = new Date();
     
     var seconds = (currentDate - referenceDate) / 1000;
@@ -64,7 +64,7 @@ function timeElapse() {
     var result = "Days <span class=\"digit\">" + days + "</span> Hours <span class=\"digit\">" + hours + "</span> Minutes <span class=\"digit\">" + minutes; 
     $("#clock").html(result);
 
-    var text = "THE WORLD JUST GOT LUCKIER SINCE";
+    var text = "Ni balhin tas messenger and the rest is history";
     $("#message-box").html(text);
 }
 
